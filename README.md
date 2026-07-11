@@ -1,16 +1,12 @@
 ```ansi
-[1m[97mchanhyung@ssu[0m:[96m~[0m$ sudo insmod chanhyung.ko
-[90m[     0.000000 ][0m on-device runtime: [95mcold boot[0m
-[90m[     0.000042 ][0m cpu: embedded roots online (since 2018) ......... [92mok[0m
-[90m[     0.001337 ][0m slab_allocator: logical-chaining enabled ........ [92mok[0m
-[90m[     0.004096 ][0m litert_delegate: CPU/GPU partition @ k .......... [92mok[0m
-[90m[     0.008192 ][0m vla_projector: LayerNorm root-cause patched ..... [92mok[0m
-[90m[     0.016384 ][0m identity: [95mSystem-native Researcher for On-device AI[0m
-[90m[     0.032768 ][0m motto: [95m"bridging the OS kernel and AI inference"[0m
-
-[1m[97mchanhyung@ssu[0m:[96m~[0m$ whoami
-[1mChanhyung Kim ([95m김찬형[0m[1m)[0m — 4th-year, School of AI Convergence, Soongsil University
-[1m[97mchanhyung@ssu[0m:[96m~[0m$ [95m_[0m
+          [90m┌───────────[0m[95m[1m on-device tensor arena [0m[90m────────────┐[0m
+  [96m0x0000[0m  [90m│ [0m[92m[1m▓ [0m[97membedded roots          since 2018          [0m[90m│[0m
+  [96m0x0400[0m  [90m│ [0m[96m[1m▓ [0m[97mxv6 slab allocator      systems             [0m[90m│[0m
+  [96m0x1000[0m  [90m│ [0m[95m[1m▓ [0m[97mlitert internal split   heterogeneous       [0m[90m│[0m
+  [96m0x2000[0m  [90m│ [0m[93m[1m▓ [0m[97mopenvla projector       on-device ML        [0m[90m│[0m
+  [96m0x3000[0m  [90m│ [0m[92m[1m▓ [0m[97mros2 manipulation       embodied            [0m[90m│[0m
+          [90m└───────[0m[97m[1m single shared arena · zero-copy [0m[90m───────┘[0m
+            [95m▲[0m [90mboundary tensor = [0m[1mme[0m
 ```
 
 ### `~/research/focus`
@@ -53,4 +49,3 @@ pick–scan–place on a Doosan M0609 6-DOF arm with hand-eye calibration and cl
 ### `contact`
 
 [chanchan@soongsil.ac.kr](mailto:chanchan@soongsil.ac.kr) &nbsp;·&nbsp; School of AI Convergence, Soongsil University
-
