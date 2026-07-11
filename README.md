@@ -1,12 +1,11 @@
 ```ansi
-          [90m┌───────────[0m[95m[1m on-device tensor arena [0m[90m────────────┐[0m
-  [96m0x0000[0m  [90m│ [0m[92m[1m▓ [0m[97membedded roots          since 2018          [0m[90m│[0m
-  [96m0x0400[0m  [90m│ [0m[96m[1m▓ [0m[97mxv6 slab allocator      systems             [0m[90m│[0m
-  [96m0x1000[0m  [90m│ [0m[95m[1m▓ [0m[97mlitert internal split   heterogeneous       [0m[90m│[0m
-  [96m0x2000[0m  [90m│ [0m[93m[1m▓ [0m[97mopenvla projector       on-device ML        [0m[90m│[0m
-  [96m0x3000[0m  [90m│ [0m[92m[1m▓ [0m[97mros2 manipulation       embodied            [0m[90m│[0m
-          [90m└───────[0m[97m[1m single shared arena · zero-copy [0m[90m───────┘[0m
-            [95m▲[0m [90mboundary tensor = [0m[1mme[0m
+   [96m[1mCPU partition[0m                      [92m[1mGPU partition[0m
+   [90mnodes 0..k-1 (systems)[0m       [90mnodes k.. (ML / accel)[0m
+  [96m┌───┐┌─────┐┌─────┐┌───────┐[0m [95m╎[0m [92m┌──────┐┌────────┐┌─────────┐┌─────────┐[0m
+  [96m│ C ││ C++ ││ xv6 ││ Linux │[0m [95m╎[0m [92m│ CUDA ││ LiteRT ││ OpenVLA ││ MoveIt2 │[0m
+  [96m└───┘└─────┘└─────┘└───────┘[0m [95m╎[0m [92m└──────┘└────────┘└─────────┘└─────────┘[0m
+                          [95m[1mk[0m
+        [90mboundary tensor (shared) → [0m[95mPython glue[0m
 ```
 
 ### `~/research/focus`
