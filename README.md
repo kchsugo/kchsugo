@@ -74,6 +74,13 @@ from model-internal optimization to action execution on real robot platforms.
 
 ---
 
+### 🎓 Education
+
+- **Soongsil University** — B.S. in AI Convergence &nbsp;·&nbsp; *2021 – 2027*
+- **Korea Digital Media High School** — IT-specialized track &nbsp;·&nbsp; *2018 – 2020*
+
+---
+
 ### 📌 Currently
 
 - Extending single-interpreter CPU/GPU partitioning toward arbitrary node sets with a custom delegate
@@ -81,6 +88,6 @@ from model-internal optimization to action execution on real robot platforms.
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=kchsugo&show_icons=true&hide_border=true&title_color=7C3AED&icon_color=9333EA&text_color=555555&hide=contribs&hide_title=true" height="150"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=7C3AED&height=90&section=footer" width="100%"/>
 
 </div>
